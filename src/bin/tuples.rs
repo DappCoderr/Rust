@@ -21,4 +21,7 @@ fn main(){
 
     // nested tuple
     let nested = ((1.23, 'a'), (true, 1u32, 'b'), ());
+
+    println!("value of tuples: {}", nested.0.0);
+    println!("value of tuples: {}", nested.1.0);
 }
