@@ -1,11 +1,11 @@
 #![allow(unused)]
 
-fn main(){
+fn main() {
     // defining the tuple
-    let t : (bool, i32, char) = (true, 45, 'a');
+    let t: (bool, i32, char) = (true, 45, 'a');
 
     // destructuring the tuple
-    let(a, b, c) = t;
+    let (a, b, c) = t;
 
     println!("Print the value of a: {}", t.0);
     println!("Print the value of b: {}", t.1);
@@ -22,6 +22,6 @@ fn main(){
     // nested tuple
     let nested = ((1.23, 'a'), (true, 1u32, 'b'), ());
 
-    println!("value of tuples: {}", nested.0.0);
-    println!("value of tuples: {}", nested.1.0);
+    println!("value of tuples: {}", nested.0 .0);
+    println!("value of tuples: {}", nested.1 .0);
 }
