@@ -9,7 +9,7 @@ fn main() {
     y += 2;
     println!("value of y is: {y}");
 
-    const x: i32 = 5; // For constant you have to define the type
+    const h: i32 = 5; // For constant you have to define the type
 
     let y = true;
 
