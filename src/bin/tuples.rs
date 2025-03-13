@@ -24,4 +24,15 @@ fn main() {
 
     println!("value of tuples: {}", nested.0 .0);
     println!("value of tuples: {}", nested.1 .0);
+
+    println!("--------------------------------------------------------");
+
+    let employ_info: (&str, u8) = ("Haardik", 27);
+    let emp_name = employ_info.0;
+    let emp_age = employ_info.1;
+
+    let (employee_name, employee_age) = employ_info;
+
+    println!("employee name {} and age {}", emp_name, emp_age);
+    println!("employee name {} and age {}", employee_name, employee_age);
 }
