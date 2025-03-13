@@ -2,8 +2,8 @@
 
 fn main() {
     let mgs: String = String::from("Hello Rust");
-    let len: usize = mgs.len();
-    let s: &str = &mgs;
+    let len = mgs.len();
+    let s = &mgs;
     println!("Message using reference : {s}");
 
     println!("Message : {mgs}");
