@@ -31,6 +31,6 @@ fn main(){
 //     return ans;
 // }
 
-// fn add_two_numbers(num_1: u8, num_2:u8) -> u8{
-//     return num_1+num_2;
-// }
+fn add_two_numbers(num_1: u8, num_2:u8) -> u8{
+    return num_1+num_2;
+}

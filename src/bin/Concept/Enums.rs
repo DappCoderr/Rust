@@ -26,10 +26,10 @@ fn main(){
     let x: Option<i32> = None;
     let x: Option<i32> = Some(-11);
 
-    println!("Option: {:?}", x)
+    // println!("Option: {:?}", x)
 
     //Result
-    let res: Result<u32,String> = OK(5);
+    // let res: Result<u32,String> = OK(5);
     let res: Result<u32,String> = Err("div by 10".to_string());
     println!("Result: {:?}", res);
 
