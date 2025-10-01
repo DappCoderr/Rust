@@ -6,3 +6,11 @@ edition = "2021"
 [dependencies]
 rand = "0.5.5"
 colored = "2.0"
+
+[[bin]]
+name = "todo"
+path = "application/todo.rs"
+
+[[bin]]
+name = "guessingGame"
+path = "application/guessingGame.rs"

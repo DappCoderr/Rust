@@ -2,7 +2,7 @@ use std::io;
 
 fn main() {
     let list = vec!["Add Task", "View Tasks", "Complete Task", "Exit"];
-    
+
     let mut todo_list: Vec<String> = Vec::new();
 
     println!("Welcome to Rust To-Do List!");

@@ -1,10 +1,10 @@
-use std::{cmp::Ordering, io};
 use rand::Rng;
+use std::{cmp::Ordering, io};
 
 fn main() {
     println!("Welcome to guessing game!!");
 
-    let secret_num = rand::thread_rng().gen_range(0,101);
+    let secret_num = rand::thread_rng().gen_range(0, 101);
 
     loop {
         println!("Guess a number:");
