@@ -1,26 +1,40 @@
 #![allow(unused)]
 
+#[derive(Debug, PartialEq)]
+
+// -----------------------Enums--------------------------
+// pub enum Color{
+//     Red,
+//     Green,
+//     Blue,
+//     Rgba(u8, u8, u8, f32)
+// }
+// fn main(){
+
+// }
+
+
 // -----------------------String and str--------------------------
-fn main(){
-    println!("{}", hello());
-    let msg = "Rust".to_string();
-    let s = &msg;
-    println!("{}", greet(s));
-    println!("{}", append(msg));
-}
+// fn main(){
+//     println!("{}", hello());
+//     let msg = "Rust".to_string();
+//     let s = &msg;
+//     println!("{}", greet(s));
+//     println!("{}", append(msg));
+// }
 
-pub fn hello() -> String {
-    "Hello Rust".to_string()
-}
+// pub fn hello() -> String {
+//     "Hello Rust".to_string()
+// }
 
-pub fn greet(name: &str) -> String {
-    format!("Hello {}", name)
-}
+// pub fn greet(name: &str) -> String {
+//     format!("Hello {}", name)
+// }
 
-pub fn append(mut s: String) -> String {
-    s += "!";
-    s
-}
+// pub fn append(mut s: String) -> String {
+//     s += "!";
+//     s
+// }
 
 // -----------------------Tuples--------------------------
 // fn main(){
