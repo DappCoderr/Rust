@@ -1,6 +1,6 @@
 #![allow(unused)]
 
-#[derive(Debug, PartialEq)]
+// #[derive(Debug, PartialEq)]
 
 // -----------------------Enums--------------------------
 // pub enum Color{
